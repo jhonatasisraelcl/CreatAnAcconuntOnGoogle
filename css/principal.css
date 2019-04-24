@@ -1,0 +1,108 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 01/06/2017, 08:00:10
+    Author     : Marcelo Júnior
+*/
+
+*{
+    padding: 0;
+    margin: 0;
+    border-width: 0;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+body{
+    background-color: #EDEDEF;
+}
+div{
+/*    display: inline-block;
+*/
+    border-radius: 2px;
+    text-align: center;
+}
+header{
+    display: block;
+    min-width: 300px;
+    box-sizing: border-box;
+    border-bottom-color: #DDD;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    padding: 20px;
+}
+header img{
+    width: 120px;
+}
+header input{
+    overflow: auto;
+}
+section{
+    display: none;
+}
+form{
+    display: inline-block;
+    width: 280px;
+    text-align: left;
+    font-weight: 500;
+    padding: 30px;
+}
+h2{
+    color: #666;
+    font-weight: 500;
+    font-size: 18px;
+    padding-top: 20px;
+}
+label{
+    display: block;
+}
+input[type="submit"]{
+    margin-top: 20px;
+    width: 100%;
+}
+nav{
+    text-align: left;
+}
+a{
+    display: block;
+    color: #383;
+    font-size: 16px;
+}
+.campo{
+    display: inline-block;
+    background-color: #FFF;
+    font-size: 16px;
+    padding: 5px;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    border-color: #AAA;
+    border-bottom-width: 1px;
+    border-right-width: 1px;
+    box-sizing: border-box;
+}
+.umaColuna{
+    width: 280px;
+}
+.duasColunas{
+    width: 137px;
+}
+.tresColunas{
+    max-width: 113px;
+}
+.botaoAzul{
+    background-color: #49E;
+    color: #FFF;
+    border-radius: 3px;
+    float: right;
+    padding: 10px;
+}
+.holderFixo{
+    position: relative;
+    top: -43px;
+    left: 180px;
+    text-align: right;
+    color: #777;
+    font-weight: 400;
+}
